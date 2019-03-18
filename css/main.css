@@ -1,55 +1,48 @@
 html {
   font-family: "Noto Serif", serif;
-  background-color: #fff;
 }
 
-header {
+fieldset {
+  border: none;
+}
+
+header,
+.footer {
   background-color: #70ad55;
   color: #fff;
 }
 
-.first {
-  border: 2px solid #70ad55;
-  border-top: none;
-  border-right: none;
-  border-left: none;
+hr {
+  border-color: rgba(112, 173, 85, .3);
 }
 
-.one {
-  color: #70ad55;
-}
-
-input, select, textarea {
-  border-color: #6e8c62;
-}
-
-input[type="checkbox"] + label::before {
-  border-color: #6e8c62;
-}
-
-input[type="radio"] + label::before {
+input,
+select,
+textarea {
   border-color: #6e8c62;
 }
 
 textarea {
-  min-height: 10rem;
+  height: 10em;
+}
+
+span {
+  color: #70ad55;
 }
 
 .btn {
   background-color: #6e8c62;
   border-color: #6e8c62;
-  color: #fff;
-}
-
-.col {
-  background-color: #70ad55;
-  color: #fff;
 }
 
 @media only screen and (min-width: 38em) {
 
-  .unique {
-    padding-right: 1.5rem;
+  .pad-l {
+    padding-left: .7rem;
+  }
+
+  .pad-r {
+    padding-right: .7rem;
   }
 
 }
